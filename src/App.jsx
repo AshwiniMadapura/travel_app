@@ -1,13 +1,12 @@
 import './App.css';
-import Nav from './components/Nav/Nav';
+import Dashboard from './containers/Dashboard/Dashboard';
 
 function App() {
   return (
-    <div className="App">
-      <Nav/>
-      <h1>Welcome</h1>
+    <div >
+      <Dashboard/>
     </div>
-  );
+  )
 }
 
 export default App;
