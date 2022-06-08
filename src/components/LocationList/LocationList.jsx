@@ -6,7 +6,7 @@ const LocationList=(props)=>{
         <>
             <h2 className="heading">Famous loacations to visit accross UK...</h2>
             <div>
-                {props.locations && props.locations.map(location => <Location key={location.id} location={location}/>)}
+                {props.locations && props.locations.map(location => <Location key={location.locationId} location={location}/>)}
             </div>
         </>
     )

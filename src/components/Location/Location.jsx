@@ -8,9 +8,9 @@ const Location=(props)=>{
     }=props.location;
 
     return(
-        <div>
+        <div className="location">
             {/* <h3>{location}</h3> */}
-            <p>Name od location: {locationName}</p>
+            <h3>Name of location: {locationName}</h3>
             <p>Location details are: {description}</p>
             <p>Nearby attractions are: {attractions}</p>
         </div>

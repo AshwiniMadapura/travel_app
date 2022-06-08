@@ -9,15 +9,15 @@ const Nav = () => {
         HOME
       </Link>
 
-      <Link className="nav-menu__item" to={"locations"}> 
+      <Link className="nav-menu__item" to={"/locations"}> 
       {/* <a className="nav-menu__item" href="">Destination details</a>  */}
         Destination details
       </Link>
 
-      {/* <Link className="nav-menu__item" > */}
+      <Link className="nav-menu__item" to={"/new-location"}>
       {/* <a className="nav-menu__item" href="">Add Destination</a> */}
-        
-      {/* </Link> */}
+      Add Destination
+      </Link>
     </div>
   )
 }
