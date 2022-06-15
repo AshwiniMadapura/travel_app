@@ -9,7 +9,7 @@ const Dashboard = () => {
     const [locations, setLocations] = useState([]);
 
   const getLocations = () => {
-    fetch("https://cloud-travel-app-mgpd7hiizq-nw.a.run.app/")
+    fetch('https://cloud-travel-app-mgpd7hiizq-nw.a.run.app/locations')
       .then(res => res.json())
       .then(json => setLocations(json))
       .catch(err => console.log(err))

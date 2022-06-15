@@ -6,12 +6,12 @@ const Form = () => {
     const [location, setLocation] = useState({
       locationName: "",
       description: "",
-      attractions: ""
+      // attractions: ""
     })
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        fetch('https://cloud-travel-app-mgpd7hiizq-nw.a.run.app/', {
+        fetch('https://cloud-travel-app-mgpd7hiizq-nw.a.run.app/locations', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
