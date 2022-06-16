@@ -3,6 +3,7 @@ import Nav from "../../components/Nav/Nav"
 import Home from "../../components/Home/Home";
 import LocationList from "../../components/LocationList/LocationList";
 import Form from "../../components/Form/Form"
+import DeleteForm from "../../components/DeleteForm/DeleteForm"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const Dashboard = () => {
@@ -26,6 +27,7 @@ const Dashboard = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/locations" element={<LocationList locations={locations}/>}/>
                 <Route path="/new-location" element={<Form />} />
+                <Route path="/delete-location" element={<DeleteForm />} />
             </Routes>
         </Router>
     )

@@ -5,6 +5,10 @@
     background-color: rgb(19, 66, 136);
     color: white;
     border-radius: 5px;
+
+    &__delete{
+      margin-left: 60%;
+    }
   
     h3 {
       font-size: 32px;
@@ -14,5 +18,9 @@
     p {
       font-size: 12px;
       font-weight: lighter;
+    }
+
+    a{
+      color: wheat;
     }
   }

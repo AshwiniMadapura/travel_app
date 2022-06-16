@@ -6,12 +6,13 @@ $blue: rgb(88, 40, 199);
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-bottom: 5px solid $blue;
+  background-color: rgb(19, 66, 136);
+  border-bottom: 5px solid rgb(19, 66, 136);
 
   > * {
     text-decoration: none;
     font-size: 18px;
     margin: 10px 0;
-    color: black;
+    color: white;
   }
 }

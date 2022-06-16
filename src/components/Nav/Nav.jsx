@@ -18,6 +18,10 @@ const Nav = () => {
       {/* <a className="nav-menu__item" href="">Add Destination</a> */}
       Add Destination
       </Link>
+
+      <Link className="nav-menu__item" to={"/delete-location"}>
+      Delete Destination
+      </Link>
     </div>
   )
 }
