@@ -10,18 +10,15 @@ $blue: rgb(88, 40, 199);
   
   form {
     display: block;
-    width: 100%;
     padding: 2em;
   }
   
   h2 {
-    width: 100%;
     color: lighten(grey, 20%);
     font-family: 'open sans condensed';
     font-size: 1.35em;
     display: block;
     background: rgb(46, 46, 46);
-    width: 100%;
     text-transform: uppercase;
     padding: .75em 1em .75em 1.5em;
     box-shadow:inset 0px 1px 1px fadeout(white, 95%);
